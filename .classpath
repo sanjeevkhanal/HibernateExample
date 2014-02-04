@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry including="**/*.java" kind="src" output="target/test-classes" path="src/test/java"/>
+	<classpathentry excluding="**/*.java" kind="src" output="target/test-classes" path="src/test/resources"/>
+	<classpathentry excluding="resources/database/|resources/hibernate/|resources/properties/|resources/spring/beans/|resources/spring/config/|resources/spring/" including="**/*.java" kind="src" path="src/main/java"/>
+	<classpathentry excluding="database/|hibernate/|properties/|spring/beans/|spring/config/|spring/" kind="src" path="src/main/java/resources"/>
+	<classpathentry kind="src" path="src/main/java/resources/database"/>
+	<classpathentry kind="src" path="src/main/java/resources/hibernate"/>
+	<classpathentry kind="src" path="src/main/java/resources/properties"/>
+	<classpathentry kind="src" path="src/main/java/resources/spring/beans"/>
+	<classpathentry kind="src" path="src/main/java/resources/spring/config"/>
+	<classpathentry excluding="beans/|config/" kind="src" path="src/main/java/resources/spring"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="var" path="M2_REPO/com/vaadin/vaadin-server/7.0.0.beta3/vaadin-server-7.0.0.beta3.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/vaadin/vaadin-shared/7.0.0.beta3/vaadin-shared-7.0.0.beta3.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/json/json/20080701/json-20080701.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/vaadin/vaadin-theme-compiler/7.0.0.beta3/vaadin-theme-compiler-7.0.0.beta3.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/commons/commons-jexl/2.1.1/commons-jexl-2.1.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/w3c/css/sac/1.3/sac-1.3.jar"/>
+	<classpathentry kind="var" path="M2_REPO/net/sourceforge/cssparser/cssparser/0.9.5/cssparser-0.9.5.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-cli/commons-cli/1.2/commons-cli-1.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/jsoup/jsoup/1.6.3/jsoup-1.6.3.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/bsb/common/vaadin/com.bsb.common.vaadin7.embed/0.5/com.bsb.common.vaadin7.embed-0.5.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/tomcat/tomcat-catalina/7.0.32/tomcat-catalina-7.0.32.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/tomcat/tomcat-servlet-api/7.0.32/tomcat-servlet-api-7.0.32.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/tomcat/tomcat-juli/7.0.32/tomcat-juli-7.0.32.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/tomcat/tomcat-annotations-api/7.0.32/tomcat-annotations-api-7.0.32.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/tomcat/tomcat-api/7.0.32/tomcat-api-7.0.32.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/tomcat/tomcat-util/7.0.32/tomcat-util-7.0.32.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/tomcat/tomcat-jasper/7.0.32/tomcat-jasper-7.0.32.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/tomcat/tomcat-jsp-api/7.0.32/tomcat-jsp-api-7.0.32.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/tomcat/tomcat-el-api/7.0.32/tomcat-el-api-7.0.32.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/eclipse/jdt/core/compiler/ecj/3.7.2/ecj-3.7.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/tomcat/tomcat-jasper-el/7.0.32/tomcat-jasper-el-7.0.32.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/tomcat/embed/tomcat-embed-core/7.0.32/tomcat-embed-core-7.0.32.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/vaadin/vaadin-client-compiled/7.0.0.beta3/vaadin-client-compiled-7.0.0.beta3.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/vaadin/vaadin-themes/7.0.0.beta3/vaadin-themes-7.0.0.beta3.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/google/guava/guava/11.0.1/guava-11.0.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/log4j/log4j/1.2.16/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="C:/Tomcat/lib/catalina.jar"/>
+	<classpathentry kind="lib" path="spring-2.5.6.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
